@@ -32,6 +32,8 @@ public class ChatServer {
             ChannelFuture start = bootstrap.bind(8888).sync();
             
             start.channel().closeFuture().sync();
+            
+            System.out.println("server start .... ");
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
