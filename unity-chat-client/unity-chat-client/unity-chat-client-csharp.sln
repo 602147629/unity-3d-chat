@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{2D008074-274D-FD2E-BD20-387B9CE4A7ED}") = "unity-chat-client", "Assembly-CSharp-vs.csproj", "{D03747AC-F768-CD50-C938-8FC61E5306FF}"
+EndProject
+Project("{2D008074-274D-FD2E-BD20-387B9CE4A7ED}") = "unity-chat-client", "Assembly-CSharp-Editor-vs.csproj", "{48C3D6D8-C879-786B-6A6C-DE192454B9BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D03747AC-F768-CD50-C938-8FC61E5306FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03747AC-F768-CD50-C938-8FC61E5306FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03747AC-F768-CD50-C938-8FC61E5306FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03747AC-F768-CD50-C938-8FC61E5306FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C3D6D8-C879-786B-6A6C-DE192454B9BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C3D6D8-C879-786B-6A6C-DE192454B9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C3D6D8-C879-786B-6A6C-DE192454B9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C3D6D8-C879-786B-6A6C-DE192454B9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+					GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal
